@@ -5,111 +5,111 @@
 		<Filter>[ref].match('^I .*') and [length] &lt; 3</Filter>
 		&maxscale_zoom7;
 		&minscale_zoom9;
-		<ShieldSymbolizer name="[shield_name]" fontset-name="bold-fonts" size="10" fill="#fff" placement="line" file="&symbols;/shield_fwy_us2.svg" minimum-distance="30" spacing="750"/>
+	<ShieldSymbolizer fontset-name="bold-fonts" size="10" fill="#fff" placement="line" file="&symbols;/shield_fwy_us2.svg" minimum-distance="30" spacing="750">[shield_name]</ShieldSymbolizer>
 	</Rule>
 	<Rule>
 		<Filter>[ref].match('^I .*') and [length] &gt; 2 and [length] &lt; 5</Filter>
 		&maxscale_zoom7;
 		&minscale_zoom9;
-		<ShieldSymbolizer name="[shield_name]" fontset-name="bold-fonts" size="10" fill="#fff" placement="line" file="&symbols;/shield_fwy_us3.svg" minimum-distance="30" spacing="750"/>
+		<ShieldSymbolizer fontset-name="bold-fonts" size="10" fill="#fff" placement="line" file="&symbols;/shield_fwy_us3.svg" minimum-distance="30" spacing="750">[shield_name]</ShieldSymbolizer>
 	</Rule>
 	<Rule>
 		<Filter>[ref].match('^I .*') and [length] &gt; 4 and [length] &lt; 6</Filter>
 		&maxscale_zoom7;
 		&minscale_zoom9;
-		<ShieldSymbolizer name="[shield_name]" fontset-name="bold-fonts" size="10" fill="#fff" placement="line" file="&symbols;/shield_fwy_us5.svg" minimum-distance="30" spacing="750"/>
+		<ShieldSymbolizer fontset-name="bold-fonts" size="10" fill="#fff" placement="line" file="&symbols;/shield_fwy_us5.svg" minimum-distance="30" spacing="750">[shield_name]</ShieldSymbolizer>
 	</Rule>
   <!-- zoom 10-12 -->
 	<Rule>
 		<Filter>[ref].match('^I .*') and [length] &lt; 3</Filter>
 		&maxscale_zoom10;
 		&minscale_zoom12;
-		<ShieldSymbolizer name="[shield_name]" fontset-name="bold-fonts" size="10" fill="#fff" placement="line" file="&symbols;/shield_fwy_us2.svg" minimum-distance="30" spacing="750"/>
+		<ShieldSymbolizer fontset-name="bold-fonts" size="10" fill="#fff" placement="line" file="&symbols;/shield_fwy_us2.svg" minimum-distance="30" spacing="750">[shield_name]</ShieldSymbolizer>
 	</Rule>
 	<Rule>
 		<Filter>[ref].match('^I .*') and [length] &gt; 2 and [length] &lt; 5</Filter>
 		&maxscale_zoom10;
 		&minscale_zoom12;
-		<ShieldSymbolizer name="[shield_name]" fontset-name="bold-fonts" size="10" fill="#fff" placement="line" file="&symbols;/shield_fwy_us3.svg" minimum-distance="30" spacing="750"/>
+		<ShieldSymbolizer fontset-name="bold-fonts" size="10" fill="#fff" placement="line" file="&symbols;/shield_fwy_us3.svg" minimum-distance="30" spacing="750">[shield_name]</ShieldSymbolizer>
 	</Rule>
 	<Rule>
 		<Filter>[ref].match('^I .*') and [length] &gt; 4 and [length] &lt; 6</Filter>
 		&maxscale_zoom10;
 		&minscale_zoom12;
-		<ShieldSymbolizer name="[shield_name]" fontset-name="bold-fonts" size="10" fill="#fff" placement="line" file="&symbols;/shield_fwy_us5.svg" minimum-distance="30" spacing="750"/>
+		<ShieldSymbolizer fontset-name="bold-fonts" size="10" fill="#fff" placement="line" file="&symbols;/shield_fwy_us5.svg" minimum-distance="30" spacing="750">[shield_name]</ShieldSymbolizer>
 	</Rule>
   <!-- zoom 13+ -->
 	<Rule>
 		<Filter>[ref].match('^I .*') and [length] &lt; 3</Filter>
 		&maxscale_zoom13;
-		<ShieldSymbolizer name="[shield_name]" fontset-name="bold-fonts" size="10" fill="#fff" placement="line" file="&symbols;/shield_fwy_us2.svg" minimum-distance="50" spacing="750"/>
+		<ShieldSymbolizer fontset-name="bold-fonts" size="10" fill="#fff" placement="line" file="&symbols;/shield_fwy_us2.svg" minimum-distance="50" spacing="750">[shield_name]</ShieldSymbolizer>
 	</Rule>
 	<Rule>
 		<Filter>[ref].match('^I .*') and [length] &gt; 2 and [length] &lt; 5</Filter>
 		&maxscale_zoom13;
-		<ShieldSymbolizer name="[shield_name]" fontset-name="bold-fonts" size="10" fill="#fff" placement="line" file="&symbols;/shield_fwy_us3.svg" minimum-distance="50" spacing="750"/>
+		<ShieldSymbolizer fontset-name="bold-fonts" size="10" fill="#fff" placement="line" file="&symbols;/shield_fwy_us3.svg" minimum-distance="50" spacing="750">[shield_name]</ShieldSymbolizer>
 	</Rule>
 	<Rule>
 		<Filter>[ref].match('^I .*') and [length] &gt; 4 and [length] &lt; 6</Filter>
 		&maxscale_zoom13;
-		<ShieldSymbolizer name="[shield_name]" fontset-name="bold-fonts" size="10" fill="#fff" placement="line" file="&symbols;/shield_fwy_us5.svg" minimum-distance="50" spacing="750"/>
+		<ShieldSymbolizer fontset-name="bold-fonts" size="10" fill="#fff" placement="line" file="&symbols;/shield_fwy_us5.svg" minimum-distance="50" spacing="750">[shield_name]</ShieldSymbolizer>
 	</Rule>
 <!--US Highway shield-->
 	<Rule>
 		<Filter>[ref].match('^US.*') and [length] &lt; 4</Filter>
 		&maxscale_zoom8;
-		<ShieldSymbolizer name="[shield_name]" fontset-name="book-fonts" size="10" fill="#000" placement="line" file="&symbols;/shield_hwy_us3.svg" minimum-distance="30" spacing="750"/>
+		<ShieldSymbolizer fontset-name="book-fonts" size="10" fill="#000" placement="line" file="&symbols;/shield_hwy_us3.svg" minimum-distance="30" spacing="750">[shield_name]</ShieldSymbolizer>
 	</Rule>
 	<Rule>
 		<Filter>[ref].match('^US.*') and [length] = 4</Filter>
 		&maxscale_zoom8;
-		<ShieldSymbolizer name="[shield_name]" fontset-name="book-fonts" size="10" fill="#000" placement="line" file="&symbols;/shield_hwy_us4.svg" minimum-distance="30" spacing="750"/>
+		<ShieldSymbolizer fontset-name="book-fonts" size="10" fill="#000" placement="line" file="&symbols;/shield_hwy_us4.svg" minimum-distance="30" spacing="750">[shield_name]</ShieldSymbolizer>
 	</Rule>
 	<Rule>
 		<Filter>[ref].match('^US.*') and [length] = 5</Filter>
 		&maxscale_zoom8;
-		<ShieldSymbolizer name="[shield_name]" fontset-name="book-fonts" size="10" fill="#000" placement="line" file="&symbols;/shield_sr_us5.svg" minimum-distance="30" spacing="750"/>
+		<ShieldSymbolizer fontset-name="book-fonts" size="10" fill="#000" placement="line" file="&symbols;/shield_sr_us5.svg" minimum-distance="30" spacing="750">[shield_name]</ShieldSymbolizer>
 	</Rule>
 	<Rule>
 		<Filter>[ref].match('^US.*') and [length] = 6</Filter>
 		&maxscale_zoom8;
-		<ShieldSymbolizer name="[shield_name]" fontset-name="book-fonts" size="10" fill="#000" placement="line" file="&symbols;/shield_sr_us6.svg" minimum-distance="30" spacing="750"/>
+		<ShieldSymbolizer fontset-name="book-fonts" size="10" fill="#000" placement="line" file="&symbols;/shield_sr_us6.svg" minimum-distance="30" spacing="750">[shield_name]</ShieldSymbolizer>
 	</Rule>
 	<Rule>
 		<Filter>[ref].match('^US.*') and [length] = 7</Filter>
 		&maxscale_zoom8;
-		<ShieldSymbolizer name="[shield_name]" fontset-name="book-fonts" size="10" fill="#000" placement="line" file="&symbols;/shield_sr_us7.svg" minimum-distance="30" spacing="750"/>
+		<ShieldSymbolizer fontset-name="book-fonts" size="10" fill="#000" placement="line" file="&symbols;/shield_sr_us7.svg" minimum-distance="30" spacing="750">[shield_name]</ShieldSymbolizer>
 	</Rule>
 <!--State Highway shield-->
 	<Rule>
 		<Filter>not [ref].match('^US .*') and not [ref].match('^I .*') and [length] &lt; 3</Filter>
 		&maxscale_zoom10;
-		<ShieldSymbolizer name="[shield_name]" fontset-name="book-fonts" size="10" fill="#000" placement="line" file="&symbols;/shield_sr_us2.svg" minimum-distance="40" spacing="750"/>
+		<ShieldSymbolizer fontset-name="book-fonts" size="10" fill="#000" placement="line" file="&symbols;/shield_sr_us2.svg" minimum-distance="40" spacing="750">[shield_name]</ShieldSymbolizer>
 	</Rule>
 	<Rule>
 		<Filter>not [ref].match('^US .*') and not [ref].match('^I .*') and [length] = 3</Filter>
 		&maxscale_zoom10;
-		<ShieldSymbolizer name="[shield_name]" fontset-name="book-fonts" size="10" fill="#000" placement="line" file="&symbols;/shield_sr_us3.svg" minimum-distance="40" spacing="750"/>
+		<ShieldSymbolizer fontset-name="book-fonts" size="10" fill="#000" placement="line" file="&symbols;/shield_sr_us3.svg" minimum-distance="40" spacing="750">[shield_name]</ShieldSymbolizer>
 	</Rule>
 	<Rule>
 		<Filter>not [ref].match('^US .*') and not [ref].match('^I .*') and [length] = 4</Filter>
 		&maxscale_zoom10;
-		<ShieldSymbolizer name="[shield_name]" fontset-name="book-fonts" size="10" fill="#000" placement="line" file="&symbols;/shield_sr_us4.svg" minimum-distance="40" spacing="750"/>
+		<ShieldSymbolizer fontset-name="book-fonts" size="10" fill="#000" placement="line" file="&symbols;/shield_sr_us4.svg" minimum-distance="40" spacing="750">[shield_name]</ShieldSymbolizer>
 	</Rule>
 	<Rule>
 		<Filter>not [ref].match('^US .*') and not [ref].match('^I .*') and [length] = 5</Filter>
 		&maxscale_zoom10;
-		<ShieldSymbolizer name="[shield_name]" fontset-name="book-fonts" size="10" fill="#000" placement="line" file="&symbols;/shield_sr_us5.svg" minimum-distance="40" spacing="750"/>
+		<ShieldSymbolizer fontset-name="book-fonts" size="10" fill="#000" placement="line" file="&symbols;/shield_sr_us5.svg" minimum-distance="40" spacing="750">[shield_name]</ShieldSymbolizer>
 	</Rule>
 	<Rule>
 		<Filter>not [ref].match('^US .*') and not [ref].match('^I .*') and [length] = 6</Filter>
 		&maxscale_zoom10;
-		<ShieldSymbolizer name="[shield_name]" fontset-name="book-fonts" size="10" fill="#000" placement="line" file="&symbols;/shield_sr_us6.svg" minimum-distance="40" spacing="750"/>
+		<ShieldSymbolizer fontset-name="book-fonts" size="10" fill="#000" placement="line" file="&symbols;/shield_sr_us6.svg" minimum-distance="40" spacing="750">[shield_name]</ShieldSymbolizer>
 	</Rule>
 	<Rule>
 		<Filter>not [ref].match('^US .*') and not [ref].match('^I .*') and [length] = 7</Filter>
 		&maxscale_zoom10;
-		<ShieldSymbolizer name="[shield_name]" fontset-name="book-fonts" size="10" fill="#000" placement="line" file="&symbols;/shield_sr_us7.svg" minimum-distance="40" spacing="750"/>
+		<ShieldSymbolizer fontset-name="book-fonts" size="10" fill="#000" placement="line" file="&symbols;/shield_sr_us7.svg" minimum-distance="40" spacing="750">[shield_name]</ShieldSymbolizer>
 	</Rule>
 </Style>
 <Style name="street-text">
