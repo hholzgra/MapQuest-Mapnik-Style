@@ -330,13 +330,13 @@
     <Filter>[place] = 'small_town'</Filter>
     &maxscale_zoom6;
     &minscale_zoom10;
-    <ShieldSymbolizer name="[name]" fontset-name="bold-fonts" size="10" fill="#2b2b2b" dy="-17" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" file="&symbols;/small-city.svg" minimum-distance="10"/>
+    <ShieldSymbolizer fontset-name="bold-fonts" size="10" fill="#2b2b2b" dy="-17" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" file="&symbols;/small-city.svg" minimum-distance="10">[name]</ShieldSymbolizer>
   </Rule>
   <Rule>
     <Filter>[place] = 'small_town'</Filter>
     &maxscale_zoom11;
     &minscale_zoom15;
-    <ShieldSymbolizer name="[name]" fontset-name="bold-fonts" size="12" fill="#2b2b2b" dy="-17" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" file="&symbols;/small-city.svg" minimum-distance="10"/>
+    <ShieldSymbolizer fontset-name="bold-fonts" size="12" fill="#2b2b2b" dy="-17" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" file="&symbols;/small-city.svg" minimum-distance="10">[name]</ShieldSymbolizer>
   </Rule>
 </Style>
 <Style name="city 2">
@@ -344,19 +344,19 @@
     <Filter>[place] = 'town' or [place]='large_town'</Filter>
     &maxscale_zoom8;
     &minscale_zoom8;
-    <ShieldSymbolizer name="[name]" fontset-name="bold-fonts" size="8" fill="#2b2b2b" dy="-11" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" file="&symbols;/small-city.svg" minimum-distance="10"/>
+    <ShieldSymbolizer fontset-name="bold-fonts" size="8" fill="#2b2b2b" dy="-11" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" file="&symbols;/small-city.svg" minimum-distance="10">[name]</ShieldSymbolizer>
   </Rule>
   <Rule>
     <Filter>[place] = 'town' or [place]='large_town'</Filter>
     &maxscale_zoom9;
     &minscale_zoom10;
-    <ShieldSymbolizer name="[name]" fontset-name="bold-fonts" size="9" fill="#2b2b2b" dy="-11" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" file="&symbols;/small-city.svg" minimum-distance="10"/>
+    <ShieldSymbolizer fontset-name="bold-fonts" size="9" fill="#2b2b2b" dy="-11" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" file="&symbols;/small-city.svg" minimum-distance="10">[name]</ShieldSymbolizer>
   </Rule>
   <Rule>
     <Filter>[place] = 'town' or [place]='large_town'</Filter>
     &maxscale_zoom11;
     &minscale_zoom15;
-    <ShieldSymbolizer name="[name]" fontset-name="bold-fonts" size="12" fill="#2b2b2b" dy="-13" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" file="&symbols;/small-city.svg" minimum-distance="10"/>
+    <ShieldSymbolizer fontset-name="bold-fonts" size="12" fill="#2b2b2b" dy="-13" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" file="&symbols;/small-city.svg" minimum-distance="10">[name]</ShieldSymbolizer>
   </Rule>
 </Style>
 <Style name="city 1">
@@ -364,25 +364,25 @@
     <Filter>[place] = 'city' or [place]='metropolis'</Filter>
     &maxscale_zoom6;
     &minscale_zoom7;
-    <ShieldSymbolizer name="[name]" fontset-name="bold-fonts" size="11" fill="#2b2b2b" dy="-12" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" file="&symbols;/small-city.svg" minimum-distance="25"/>
+    <ShieldSymbolizer fontset-name="bold-fonts" size="11" fill="#2b2b2b" dy="-12" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" file="&symbols;/small-city.svg" minimum-distance="25">[name]</ShieldSymbolizer>
   </Rule>
   <Rule>
     <Filter>[place] = 'city' or [place]='metropolis'</Filter>
     &maxscale_zoom8;
     &minscale_zoom9;
-    <ShieldSymbolizer name="[name]" fontset-name="bold-fonts" size="13" fill="#2b2b2b" dy="-13" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" file="&symbols;/large-city.svg" minimum-distance="20"/>
+    <ShieldSymbolizer fontset-name="bold-fonts" size="13" fill="#2b2b2b" dy="-13" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" file="&symbols;/large-city.svg" minimum-distance="20">[name]</ShieldSymbolizer>
   </Rule>
   <Rule>
     <Filter>[place] = 'city' or [place]='metropolis'</Filter>
     &maxscale_zoom10;
     &minscale_zoom13;
-    <ShieldSymbolizer name="[name]" fontset-name="bold-fonts" size="14" fill="#2b2b2b" dy="-15" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" file="&symbols;/large-city.svg" minimum-distance="5"/>
+    <ShieldSymbolizer fontset-name="bold-fonts" size="14" fill="#2b2b2b" dy="-15" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" file="&symbols;/large-city.svg" minimum-distance="5">[name]</ShieldSymbolizer>
   </Rule>
   <Rule>
     <Filter>[place] = 'city' or [place]='metropolis'</Filter>
     &maxscale_zoom14;
     &minscale_zoom15;
-    <ShieldSymbolizer name="[name]" fontset-name="bold-fonts" size="16" fill="#2b2b2b" dy="-17" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" character-spacing="5" text-transform="uppercase" file="&symbols;/large-city.svg" minimum-distance="20"/>
+    <ShieldSymbolizer fontset-name="bold-fonts" size="16" fill="#2b2b2b" dy="-17" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" character-spacing="5" text-transform="uppercase" file="&symbols;/large-city.svg" minimum-distance="20">[name]</ShieldSymbolizer>
   </Rule>
 </Style>
 <Style name="city 1 lowzoom">
@@ -390,7 +390,7 @@
     <Filter>[place] = 'city' or [place]='metropolis'</Filter>
     &maxscale_zoom4;
     &minscale_zoom5;
-    <ShieldSymbolizer name="[name]" fontset-name="bold-fonts" size="9" fill="#2b2b2b" dy="-10" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" file="&symbols;/small-city.svg" minimum-distance="25"/>
+    <ShieldSymbolizer fontset-name="bold-fonts" size="9" fill="#2b2b2b" dy="-10" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" file="&symbols;/small-city.svg" minimum-distance="25">[name]</ShieldSymbolizer>
   </Rule>
 </Style>
 <Style name="capital">
@@ -398,25 +398,25 @@
     <Filter>[place] = 'city' or [place]='metropolis'</Filter>
     &maxscale_zoom4;
     &minscale_zoom5;
-    <ShieldSymbolizer name="[name]" fontset-name="bold-fonts" size="11" fill="#2b2b2b" dy="-13" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" file="&symbols;/large-city.svg" minimum-distance="5"/>
+    <ShieldSymbolizer fontset-name="bold-fonts" size="11" fill="#2b2b2b" dy="-13" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" file="&symbols;/large-city.svg" minimum-distance="5">[name]</ShieldSymbolizer>
   </Rule>
   <Rule>
     <Filter>[place] = 'city' or [place]='metropolis'</Filter>
     &maxscale_zoom6;
     &minscale_zoom6;
-    <ShieldSymbolizer name="[name]" fontset-name="bold-fonts" size="13" fill="#2b2b2b" dy="-17" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" file="&symbols;/national-capital.svg" minimum-distance="25"/>
+    <ShieldSymbolizer fontset-name="bold-fonts" size="13" fill="#2b2b2b" dy="-17" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" file="&symbols;/national-capital.svg" minimum-distance="25">[name]</ShieldSymbolizer>
   </Rule>
   <Rule>
     <Filter>[place] = 'city' or [place]='metropolis'</Filter>
     &maxscale_zoom7;
     &minscale_zoom13;
-    <ShieldSymbolizer name="[name]" fontset-name="bold-fonts" size="15" fill="#2b2b2b" dy="-17" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" file="&symbols;/national-capital.svg"/>
+    <ShieldSymbolizer fontset-name="bold-fonts" size="15" fill="#2b2b2b" dy="-17" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" file="&symbols;/national-capital.svg">[name]</ShieldSymbolizer>
   </Rule>
   <Rule>
     <Filter>[place] = 'city' or [place]='metropolis'</Filter>
     &maxscale_zoom14;
     &minscale_zoom15;
-    <ShieldSymbolizer name="[name]" fontset-name="bold-fonts" size="15" fill="#2b2b2b" dy="-17" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" character-spacing="5" text-transform="uppercase" file="&symbols;/national-capital.svg"/>
+    <ShieldSymbolizer fontset-name="bold-fonts" size="15" fill="#2b2b2b" dy="-17" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="0" line-spacing="2" character-spacing="5" text-transform="uppercase" file="&symbols;/national-capital.svg">[name]</ShieldSymbolizer>
   </Rule>
 </Style>
 <Style name="state">
