@@ -4,49 +4,49 @@
     <Filter>([leisure] = 'park' or [leisure] = 'playground' or [landuse] = 'recreation_ground' or [leisure] = 'nature_reserve' or [landuse] = 'forest') and [way_area] &gt;= 50000000</Filter>
     &maxscale_zoom9;
     &minscale_zoom10;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#006f53" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" minimum-distance="20" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#006f53" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" minimum-distance="20" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>([leisure] = 'park' or [leisure] = 'playground' or [landuse] = 'recreation_ground' or [leisure] = 'nature_reserve' or [landuse] = 'forest') and [way_area] &gt;= 25000000</Filter>
     &maxscale_zoom11;
     &minscale_zoom12;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#006f53" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" minimum-distance="20" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#006f53" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" minimum-distance="20" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>([leisure] = 'park' or [leisure] = 'playground' or [landuse] = 'recreation_ground' or [leisure] = 'nature_reserve' or [landuse] = 'forest') and [way_area] &gt;= 1000000</Filter>
     &maxscale_zoom13;
     &minscale_zoom14;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#305943" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" minimum-distance="20" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#305943" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" minimum-distance="20" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>([amenity] = 'university' or [amenity] = 'college') and [way_area] &gt;= 500000</Filter>
     &maxscale_zoom13;
     &minscale_zoom14;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
    <Rule>
     <Filter>[amenity] = 'school' and [way_area] &gt;= 500000</Filter>
     &maxscale_zoom13;
     &minscale_zoom14;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>([leisure] = 'stadium' or [leisure] = 'sports_centre' or [tourism] = 'attraction' or [tourism] = 'zoo') and [way_area] &gt;= 500000</Filter>
     &maxscale_zoom13;
     &minscale_zoom14;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="14" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="14" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[landuse]='military' and [way_area] &gt;= 500000</Filter>
     &maxscale_zoom13;
     &minscale_zoom14;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[aeroway] = 'apron' or [aeroway] = 'aerodrome'</Filter>
     &maxscale_zoom11;
     &minscale_zoom14;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="10" text-transform="uppercase" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="10" text-transform="uppercase" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
 </Style>
 <Style name="landmark-poly-text">
@@ -54,108 +54,108 @@
     <Filter>([leisure] = 'park' or [leisure] = 'playground' or [landuse] = 'recreation_ground' or [leisure] = 'nature_reserve' or [landuse] = 'forest') and [way_area] &gt;= 20000</Filter>
     &maxscale_zoom15;
     &minscale_zoom16;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#005842" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" minimum-distance="20" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#005842" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" minimum-distance="20" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>([leisure] = 'park' or [leisure] = 'playground' or [landuse] = 'recreation_ground' or [leisure] = 'nature_reserve' or [landuse] = 'forest')</Filter>
     &maxscale_zoom17;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#005842" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" minimum-distance="20" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#005842" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" minimum-distance="20" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <!--military-->
   <Rule>
     <Filter>[landuse]='military' and [way_area] &gt;= 100000</Filter>
     &maxscale_zoom15;
     &minscale_zoom16;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[amenity] = 'university' or [amenity] = 'college'</Filter>
     &maxscale_zoom17;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="11" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="11" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <!--golf course-->
   <Rule>
     <Filter>[leisure] = 'golf_course'</Filter>
     &maxscale_zoom15;
     &minscale_zoom15;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#006f53" dy="-10" dx="30" justify-alignment="left" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="30" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#006f53" dy="-10" dx="30" justify-alignment="left" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="30" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[leisure] = 'golf_course'</Filter>
     &maxscale_zoom16;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="12" fill="#006f53" dy="-15" dx="35" justify-alignment="left" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="30" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="12" fill="#006f53" dy="-15" dx="35" justify-alignment="left" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="30" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <!--college/university-->
   <Rule>
     <Filter>([amenity] = 'university' or [amenity] = 'college') and [way_area] &gt;= 100000</Filter>
     &maxscale_zoom15;
     &minscale_zoom16;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="11" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="11" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[amenity] = 'university' or [amenity] = 'college'</Filter>
     &maxscale_zoom17;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="11" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="11" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <!--school-->
   <Rule>
     <Filter>[amenity] = 'school' and [way_area] &gt;= 100000</Filter>
     &maxscale_zoom15;
     &minscale_zoom16;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="14" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="14" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[amenity] = 'school'</Filter>
     &maxscale_zoom17;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="14" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="14" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <!--stadium or attraction-->
   <Rule>
     <Filter>([leisure] = 'stadium' or [leisure] = 'sports_centre' or [tourism] = 'attraction' or [tourism] = 'zoo') and [way_area] &gt;= 10000</Filter>
     &maxscale_zoom15;
     &minscale_zoom16;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="14" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="14" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[leisure] = 'stadium' or [leisure] = 'sports_centre' or [tourism] = 'attraction' or [tourism] = 'zoo'</Filter>
     &maxscale_zoom17;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="14" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="14" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <!--Shopping center-->
   <Rule>
     <Filter>[landuse] = 'retail'</Filter>
     &maxscale_zoom17;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="14" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="14" line-spacing="4"/>
   </Rule>
   <!--Building-->
   <Rule>
     <Filter>[building] = 'yes' and [way_area] &gt;= 100000</Filter>
     &maxscale_zoom15;
     &minscale_zoom16;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="14" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="14" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[building] = 'yes'</Filter>
     &maxscale_zoom17;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="14" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="14" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <!--hospital polygon-->
   <Rule>
     <Filter>[amenity] = 'hospital'</Filter>
     &maxscale_zoom16;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="11" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="40" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="11" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="40" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <!--airport-->
   <Rule>
     <Filter>[aeroway] = 'apron' or [aeroway] = 'aerodrome'</Filter>
     &maxscale_zoom15;
     &minscale_zoom15;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="10" text-transform="uppercase" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="10" text-transform="uppercase" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[aeroway] = 'apron' or [aeroway] = 'aerodrome'</Filter>
     &maxscale_zoom16;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="11" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="10" text-transform="uppercase" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="11" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="10" text-transform="uppercase" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
 </Style>
 <Style name="landmark-point-text">
@@ -163,43 +163,43 @@
   <Rule>
     <Filter>[place] = 'island'</Filter>
     &maxscale_zoom14;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="9" fill="#000" dy="0" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="9" fill="#000" dy="0" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <!--attraction/POI-->
   <Rule>
     <Filter>[tourism] = 'museum' or [tourism] = 'attraction' or [tourism] = 'theme_park' or [tourism] = 'zoo'</Filter>
     &maxscale_zoom17;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#2b2b2b" dy="-8" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#2b2b2b" dy="-8" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <!--hospital point-->
   <Rule>
     <Filter>[amenity] = 'hospital'</Filter>
     &maxscale_zoom17;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="11" fill="#2b2b2b" dy="-10" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="40" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="11" fill="#2b2b2b" dy="-10" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="40" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <!--summit-->
   <Rule>
     <Filter>[natural] = 'peak'</Filter>
     &maxscale_zoom12;
     &minscale_zoom14;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="11" fill="#775d47" dy="-8" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="10" minimum-distance="1" line-spacing="1"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="11" fill="#775d47" dy="-8" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="10" minimum-distance="1" line-spacing="1">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[natural] = 'peak'</Filter>
     &maxscale_zoom15;
-    <TextSymbolizer name="[name_with_ele]" fontset-name="oblique-fonts" size="11" fill="#775d47" dy="-8" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="10" minimum-distance="1" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="11" fill="#775d47" dy="-8" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="10" minimum-distance="1" line-spacing="4">[name_with_ele]</TextSymbolizer>
   </Rule>
   <!--ferry terminal-->
   <Rule>
     <Filter>[amenity] = 'ferry_terminal'</Filter>
     &maxscale_zoom17;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#2b2b2b" dy="-8" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#2b2b2b" dy="-8" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
   <!--train station-->
   <Rule>
     <Filter>[railway] = 'station'</Filter>
     &maxscale_zoom17;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#2b2b2b" dy="-8" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" line-spacing="4"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#2b2b2b" dy="-8" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="25" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
 </Style>
 <Style name="water-text">
@@ -207,43 +207,43 @@
   <Rule>
     <Filter>[natural] = 'bay'</Filter>
     &maxscale_zoom6;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="12" fill="#384e6c" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" minimum-distance="200"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="12" fill="#384e6c" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" minimum-distance="200">[name]</TextSymbolizer>
   </Rule>
   <!--marina-->
   <Rule>
     <Filter>[leisure] = 'marina'</Filter>
     &maxscale_zoom15;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="30"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#2b2b2b" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="30">[name]</TextSymbolizer>
   </Rule>
   <!--lake-->
   <Rule>
     <Filter>[natural] = 'water' or [landuse] = 'reservoir' or [landuse] = 'basin' or [waterway] = 'mill_pond' or [waterway]='canal'</Filter>
     &maxscale_zoom6;
     &minscale_zoom8;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#384e6c" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" minimum-distance="200"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#384e6c" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" minimum-distance="200">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[natural] = 'water' or [landuse] = 'reservoir' or [landuse] = 'basin' or [waterway] = 'mill_pond' or [waterway]='canal'</Filter>
     &maxscale_zoom9;
     &minscale_zoom11;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="10" fill="#37617e" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" minimum-distance="200"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="10" fill="#37617e" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" minimum-distance="200">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[natural] = 'water' or [landuse] = 'reservoir' or [landuse] = 'basin' or [waterway] = 'mill_pond' or [waterway]='canal'</Filter>
     &maxscale_zoom12;
     &minscale_zoom13;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="11" fill="#304f6f" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" minimum-distance="200"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="11" fill="#304f6f" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" minimum-distance="200">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[natural] = 'water' or [landuse] = 'reservoir' or [landuse] = 'basin' or [waterway] = 'mill_pond' or [waterway]='canal' </Filter>
     &maxscale_zoom14;
     &minscale_zoom16;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="12" fill="#214c6e" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" minimum-distance="100"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="12" fill="#214c6e" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" minimum-distance="100">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[natural] = 'water' or [landuse] = 'reservoir' or [landuse] = 'basin' or [waterway] = 'mill_pond' or [waterway]='canal'</Filter>
     &maxscale_zoom17;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="12" fill="#214c6e" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" minimum-distance="100"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="12" fill="#214c6e" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" minimum-distance="100">[name]</TextSymbolizer>
   </Rule>
 </Style>
 <Style name="water-line-text">
@@ -252,32 +252,32 @@
     <Filter>[waterway]='weir' or [waterway]='river' or [waterway]='canal' or [waterway]='derelict_canal' or [waterway]='stream' or [waterway]='drain'</Filter>
     &maxscale_zoom14;
     &minscale_zoom14;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="11" fill="#304f6f" halo-fill="rgba(255,255,255,0.25)" halo-radius="2" placement="line" max-char-angle-delta="40"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="11" fill="#304f6f" halo-fill="rgba(255,255,255,0.25)" halo-radius="2" placement="line" max-char-angle-delta="40">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[waterway]='weir' or [waterway]='river' or [waterway]='canal' or [waterway]='derelict_canal' or [waterway]='stream' or [waterway]='drain'</Filter>
     &maxscale_zoom15;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="12" fill="#214c6e" halo-fill="rgba(255,255,255,0.25)" halo-radius="2" placement="line" max-char-angle-delta="40"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="12" fill="#214c6e" halo-fill="rgba(255,255,255,0.25)" halo-radius="2" placement="line" max-char-angle-delta="40">[name]</TextSymbolizer>
   </Rule>
 </Style>
 <Style name="ferry-text">
   <Rule>
     &maxscale_zoom13;
-    <TextSymbolizer name="[name]" fontset-name="oblique-fonts" size="11" fill="#304f6f" halo-fill="rgba(255,255,255,0.25)" halo-radius="2" placement="line" max-char-angle-delta="40"/>
+    <TextSymbolizer fontset-name="oblique-fonts" size="11" fill="#304f6f" halo-fill="rgba(255,255,255,0.25)" halo-radius="2" placement="line" max-char-angle-delta="40">[name]</TextSymbolizer>
   </Rule>
 </Style>
 <Style name="symbol-text">
 	<!--motorway junction-->
 	<Rule>
 	&maxscale_zoom15;
-	<ShieldSymbolizer name="[shield_name]" fontset-name="bold-fonts" size="10" fill="#ffffff" placement="point" shield-dy="-12" shield-dx="0" file="&symbols;/exit.svg"/> 
+	<ShieldSymbolizer fontset-name="bold-fonts" size="10" fill="#ffffff" placement="point" shield-dy="-12" shield-dx="0" file="&symbols;/exit.svg">[shield_name]</ShieldSymbolizer>
 	</Rule>
 </Style>
 <Style name="locality">
   <Rule>
     <Filter>[place] = 'locality'</Filter>
     &maxscale_zoom16;
-    <TextSymbolizer name="[name]" fontset-name="bold-fonts" size="10" fill="#787878" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" minimum-distance="10" line-spacing="2"/>
+    <TextSymbolizer fontset-name="bold-fonts" size="10" fill="#787878" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" minimum-distance="10" line-spacing="2">[name]</TextSymbolizer>
   </Rule>
 </Style>
 <Style name="neighborhood">
@@ -285,24 +285,24 @@
     <Filter>[place] = 'village' or [place] = 'hamlet'</Filter>
     &maxscale_zoom12;
     &minscale_zoom12;
-    <TextSymbolizer name="[name]" fontset-name="bold-fonts" size="10" fill="#787878" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" minimum-distance="50" line-spacing="2"/>
+    <TextSymbolizer fontset-name="bold-fonts" size="10" fill="#787878" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" minimum-distance="50" line-spacing="2">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[place] = 'village' or [place] = 'hamlet'</Filter>
     &maxscale_zoom13;
     &minscale_zoom14;
-    <TextSymbolizer name="[name]" fontset-name="bold-fonts" size="10" fill="#787878" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" minimum-distance="50" line-spacing="2"/>
+    <TextSymbolizer fontset-name="bold-fonts" size="10" fill="#787878" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" minimum-distance="50" line-spacing="2">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[place] = 'village' or [place] = 'hamlet'</Filter>
     &maxscale_zoom15;
     &minscale_zoom16;
-    <TextSymbolizer name="[name]" fontset-name="bold-fonts" size="10" fill="#787878" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" minimum-distance="100" line-spacing="2"/>
+    <TextSymbolizer fontset-name="bold-fonts" size="10" fill="#787878" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" minimum-distance="100" line-spacing="2">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[place] = 'village' or [place] = 'hamlet'</Filter>
     &maxscale_zoom17;
-    <TextSymbolizer name="[name]" fontset-name="bold-fonts" size="12" fill="#787878" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" text-transform="uppercase" minimum-distance="100" line-spacing="2" character-spacing="5"/>
+    <TextSymbolizer fontset-name="bold-fonts" size="12" fill="#787878" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" text-transform="uppercase" minimum-distance="100" line-spacing="2" character-spacing="5">[name]</TextSymbolizer>
   </Rule>
 </Style>
 <Style name="city 4">
@@ -310,19 +310,19 @@
     <Filter>[place] = 'suburb'</Filter>
     &maxscale_zoom9;
     &minscale_zoom10;
-    <TextSymbolizer name="[name]" fontset-name="bold-fonts" size="10" fill="#6e6e6e" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" minimum-distance="10" line-spacing="2"/>
+    <TextSymbolizer fontset-name="bold-fonts" size="10" fill="#6e6e6e" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" minimum-distance="10" line-spacing="2">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[place] = 'suburb'</Filter>
     &maxscale_zoom11;
     &minscale_zoom13;
-    <TextSymbolizer name="[name]" fontset-name="bold-fonts" size="12" fill="#6e6e6e" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" minimum-distance="10" line-spacing="2"/>
+    <TextSymbolizer fontset-name="bold-fonts" size="12" fill="#6e6e6e" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" minimum-distance="10" line-spacing="2">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[place] = 'suburb'</Filter>
     &maxscale_zoom14;
     &minscale_zoom17;
-    <TextSymbolizer name="[name]" fontset-name="bold-fonts" size="12" fill="#6e6e6e" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" text-transform="uppercase" minimum-distance="10" line-spacing="2" character-spacing="5"/>
+    <TextSymbolizer fontset-name="bold-fonts" size="12" fill="#6e6e6e" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" text-transform="uppercase" minimum-distance="10" line-spacing="2" character-spacing="5">[name]</TextSymbolizer>
   </Rule>
 </Style>
 <Style name="city 3">
@@ -424,13 +424,13 @@
     <Filter>[place] = 'state'</Filter>
     &maxscale_zoom4;
     &minscale_zoom6;
-    <TextSymbolizer name="[name]" fontset-name="book-fonts" size="12" fill="#805433" dy="0" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" text-transform="uppercase" minimum-distance="20"/>
+    <TextSymbolizer fontset-name="book-fonts" size="12" fill="#805433" dy="0" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" text-transform="uppercase" minimum-distance="20">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[place] = 'state'</Filter>
     &maxscale_zoom7;
     &minscale_zoom10;
-    <TextSymbolizer name="[name]" fontset-name="book-fonts" size="10" fill="#805433" dy="0" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" text-transform="uppercase" minimum-distance="20"/>
+    <TextSymbolizer fontset-name="book-fonts" size="10" fill="#805433" dy="0" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" text-transform="uppercase" minimum-distance="20">[name]</TextSymbolizer>
   </Rule>
 </Style>
 <Style name="county">
@@ -438,19 +438,19 @@
     <Filter>[place] = 'county'</Filter>
     &maxscale_zoom10;
     &minscale_zoom10;
-    <TextSymbolizer name="[name]" fontset-name="book-fonts" size="10" fill="#787878" dy="0" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" text-transform="uppercase" line-spacing="2" character-spacing="2"/>
+    <TextSymbolizer fontset-name="book-fonts" size="10" fill="#787878" dy="0" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" text-transform="uppercase" line-spacing="2" character-spacing="2">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[place] = 'county'</Filter>
     &maxscale_zoom11;
     &minscale_zoom11;
-    <TextSymbolizer name="[name]" fontset-name="book-fonts" size="12" fill="#5a5a5a" dy="0" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" text-transform="uppercase" line-spacing="2" character-spacing="2"/>
+    <TextSymbolizer fontset-name="book-fonts" size="12" fill="#5a5a5a" dy="0" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" text-transform="uppercase" line-spacing="2" character-spacing="2">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[place] = 'county'</Filter>
     &maxscale_zoom12;
     &minscale_zoom12;
-    <TextSymbolizer name="[name]" fontset-name="book-fonts" size="14" fill="#5a5a5a" dy="0" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" text-transform="uppercase" line-spacing="2" character-spacing="2"/>
+    <TextSymbolizer fontset-name="book-fonts" size="14" fill="#5a5a5a" dy="0" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="20" text-transform="uppercase" line-spacing="2" character-spacing="2">[name]</TextSymbolizer>
   </Rule>
 </Style>
 <Style name="country">
@@ -458,13 +458,13 @@
     <Filter>[place] = 'country'</Filter>
     &maxscale_zoom4;
     &minscale_zoom5;
-    <TextSymbolizer name="[name]" fontset-name="book-fonts" size="16" fill="#918378" dy="0" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="30" line-spacing="4" minimum-distance="20"/>
+    <TextSymbolizer fontset-name="book-fonts" size="16" fill="#918378" dy="0" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="30" line-spacing="4" minimum-distance="20">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[place] = 'country'</Filter>
     &maxscale_zoom6;
     &minscale_zoom7;
-    <TextSymbolizer name="[name]" fontset-name="book-fonts" size="12" fill="#918378" dy="0" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="30" text-transform="uppercase" line-spacing="4"/>
+    <TextSymbolizer fontset-name="book-fonts" size="12" fill="#918378" dy="0" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="30" text-transform="uppercase" line-spacing="4">[name]</TextSymbolizer>
   </Rule>
 </Style>
 <Style name="continent">
@@ -472,7 +472,7 @@
     <Filter>[place] = 'continent'</Filter>
     &maxscale_zoom4;
     &minscale_zoom5;
-    <TextSymbolizer name="[name]" fontset-name="bold-fonts" size="16" fill="#918378" dy="0" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="30" character-spacing="5" line-spacing="10" text-transform="uppercase"/>
+    <TextSymbolizer fontset-name="bold-fonts" size="16" fill="#918378" dy="0" halo-radius="2" halo-fill="rgba(255,255,255,0.25)" wrap-width="30" character-spacing="5" line-spacing="10" text-transform="uppercase">[name]</TextSymbolizer>
   </Rule>
 </Style>
 <Layer name="placenames-large" status="on" srs="&osm2pgsql_projection;">
@@ -638,7 +638,7 @@
 <!-- toll booths and gates share this symbolizer -->
   <Rule>
     &maxscale_zoom17;
-    <TextSymbolizer name="[label]" fontset-name="bold-fonts" size="9" fill="#5a5a5a" dy="-7"/>
+    <TextSymbolizer fontset-name="bold-fonts" size="9" fill="#5a5a5a" dy="-7">[label]</TextSymbolizer>
   </Rule>    
 </Style>
 <Layer name="barrier-text" status="on" srs="&osm2pgsql_projection;">

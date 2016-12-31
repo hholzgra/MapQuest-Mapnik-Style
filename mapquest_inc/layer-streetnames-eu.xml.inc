@@ -45,31 +45,31 @@
   <Rule>
     <Filter>[highway] = 'motorway'</Filter>
     &maxscale_zoom12;
-    <TextSymbolizer name="[name]" fontset-name="book-fonts" size="12" fill="#2b2b2b" halo-fill="rgba(255,255,255,0.25)" halo-radius="2" placement="line" max-char-angle-delta="40" avoid-edges="true"/>
+    <TextSymbolizer fontset-name="book-fonts" size="12" fill="#2b2b2b" halo-fill="rgba(255,255,255,0.25)" halo-radius="2" placement="line" max-char-angle-delta="40" avoid-edges="true">[name]</TextSymbolizer>
   </Rule>
   <!--trunk/primary text-->
   <Rule>
     <Filter>[highway] = 'trunk' or [highway] = 'primary'</Filter>
     &maxscale_zoom12;
-    <TextSymbolizer name="[name]" fontset-name="book-fonts" size="12" fill="#2b2b2b" halo-fill="rgba(255,255,255,0.25)" halo-radius="2" placement="line" max-char-angle-delta="40" avoid-edges="true"/>
+    <TextSymbolizer fontset-name="book-fonts" size="12" fill="#2b2b2b" halo-fill="rgba(255,255,255,0.25)" halo-radius="2" placement="line" max-char-angle-delta="40" avoid-edges="true">[name]</TextSymbolizer>
   </Rule>
   <!--secondary text-->
   <Rule>
     <Filter>[highway] = 'secondary' or [highway] = 'proposed' or [highway]='construction'</Filter>
     &maxscale_zoom12;
-    <TextSymbolizer name="[name]" fontset-name="book-fonts" size="12" fill="#2b2b2b" halo-fill="rgba(255,255,255,0.25)" halo-radius="2" placement="line" max-char-angle-delta="40" avoid-edges="true"/>
+    <TextSymbolizer fontset-name="book-fonts" size="12" fill="#2b2b2b" halo-fill="rgba(255,255,255,0.25)" halo-radius="2" placement="line" max-char-angle-delta="40" avoid-edges="true">[name]</TextSymbolizer>
   </Rule>
   <!--tertiary text-->
   <Rule>
     <Filter>[highway] = 'tertiary' or [highway] = 'unclassified' or [highway] = 'residential'</Filter>
     &maxscale_zoom16;
     &minscale_zoom17;
-    <TextSymbolizer name="[name]" fontset-name="book-fonts" size="11" fill="#2b2b2b" halo-fill="rgba(255,255,255,0.25)" halo-radius="2" placement="line" max-char-angle-delta="40" avoid-edges="true"/>
+    <TextSymbolizer fontset-name="book-fonts" size="11" fill="#2b2b2b" halo-fill="rgba(255,255,255,0.25)" halo-radius="2" placement="line" max-char-angle-delta="40" avoid-edges="true">[name]</TextSymbolizer>
   </Rule>
   <Rule>
     <Filter>[highway] = 'tertiary' or [highway] = 'unclassified' or [highway] = 'residential'</Filter>
     &maxscale_zoom18;
-    <TextSymbolizer name="[name]" fontset-name="book-fonts" size="12" fill="#2b2b2b" halo-fill="rgba(255,255,255,0.25)" halo-radius="2" placement="line" max-char-angle-delta="40" avoid-edges="true"/>
+    <TextSymbolizer fontset-name="book-fonts" size="12" fill="#2b2b2b" halo-fill="rgba(255,255,255,0.25)" halo-radius="2" placement="line" max-char-angle-delta="40" avoid-edges="true">[name]</TextSymbolizer>
   </Rule>
 </Style>
 
